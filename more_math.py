@@ -8,20 +8,22 @@
 import math
 
 def fact(b):
-    if b > 0 and isinstance(n, int):
+    if b > 0 and isinstance(b, int):
         return math.factorial(b)
     else:
         return 0
     
+
+def trunk(b2):
+    return math.trunc(b2)
+
 
 def root (b1):
     if b1 > 0:
         return math.sqrt(float(b1))
     else:
         return 0
-    
-def trunk(b2):
-    return math.trunc(b2)
+
 
 
 
